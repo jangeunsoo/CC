@@ -1,43 +1,46 @@
 /* src/pages/Main.css */
 .main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url('https://source.unsplash.com/1600x900/?weather,sky'); /* 날씨 관련 이미지 배경 */
-    background-size: cover;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-  }
-  
-  .weather-info {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .weather-title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .weather-details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .weather-card {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #333;
-    padding: 15px;
-    border-radius: 8px;
-    min-width: 200px;
-    text-align: left;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/1600x900/?weather,sky'); /* 날씨 관련 이미지 배경 */
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.weather-information {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.weather-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.weather-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 200px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.weather-card > p {
+  color: #666;
+}

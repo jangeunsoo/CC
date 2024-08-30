@@ -5,7 +5,7 @@ import './Main.css';
 const Main = () => {
   return (
     <div className="main-container">
-      <div className="weather-info">
+      <div className="weather-information">
         <h1 className="weather-title">Today's Weather</h1>
         <div className="weather-details">
           <div className="weather-card">

@@ -20,13 +20,13 @@ const Join = () => {
   };
 
   const handleSubmit = () => {
-    // 비밀번호 확인 체크
+   
     if (formData.PASSWORD !== formData.confirmPASSWORD) {
       alert('Passwords do not match');
       return;
     }
 
-    // 서버로 회원가입 데이터 전송 (ID와 PASSWORD만)
+    
     fetch('http://localhost:5000/register', {
       method: 'POST',
       headers: {

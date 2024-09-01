@@ -7,6 +7,7 @@ import Weather from './pages/Weather';
 import Clothes from './pages/Clothes';
 import Health from './pages/Health';
 import Login from './pages/Login';
+import Join from './pages/Join';
 import './App.css';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/clothes" element={<Clothes />} />
           <Route path="/health" element={<Health />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/join" element={<Join />} />
         </Routes>
       </div>
     </Router>

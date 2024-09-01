@@ -1,0 +1,63 @@
+.vh-900 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-card {
+  padding: 24px;
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.text-10 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.join-divider {
+  border-top: 2px solid brown;
+  margin-bottom: 20px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 307px;
+}
+
+.join-btn {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 170px;
+  margin: 20px auto;
+}
+
+.join-btn:hover {
+  background-color: darkbrown;
+}

@@ -260,6 +260,8 @@ function Weather() {
             </div>
             <div>
               <p>{`강수확률: ${weatherpop}%`}</p>
+              <p>{`풍속: ${weatherwsd}m/s`}</p>
+              <p>{`습도: ${weatherreh}%`}</p>
             </div>
             <div className="weather-details">
               <div className="weather-day">

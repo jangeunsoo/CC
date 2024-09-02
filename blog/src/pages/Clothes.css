@@ -1,0 +1,25 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.weather-info {
+    margin: 30px 0;
+    padding: 20px 0;
+
+    column-gap: 50px;
+}
+
+.advice {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.advice pre {
+    margin: 0;
+}

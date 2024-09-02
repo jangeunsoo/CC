@@ -6,6 +6,7 @@ import sunImage from '../image/sun.png';
 import cloudsImage from '../image/clouds.png';
 import rainImage from '../image/rain.png';
 import cloudmImage from '../image/cloudm.png';
+import { Link } from 'react-router-dom';
 
 function Weather() {
   const [city, setCity] = useState('');
@@ -262,6 +263,11 @@ function Weather() {
               <p>{`강수확률: ${weatherpop}%`}</p>
               <p>{`풍속: ${weatherwsd}m/s`}</p>
               <p>{`습도: ${weatherreh}%`}</p>
+              <Link to="/Clothes"
+                style={{ textDecoration: "none" }}
+                state={{ tmp: weathertmp, pop: weatherpop }}>
+                <div className="weather-colthes">현재 날씨에 맞는 옷차림을 확인하세요! (여기를 클릭하세요.)</div>
+              </Link>
             </div>
             <div className="weather-details">
               <div className="weather-day">
